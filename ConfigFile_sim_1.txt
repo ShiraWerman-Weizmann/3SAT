@@ -1,7 +1,7 @@
 % 											General parameters 											 %
 % --------------------------------------------------------------------------------------------------------
-MovieFolder = 'Example';                                                                      % Data folder
-InputName   = 'Patch_Nb140'; 																			 % Movie name
+MovieFolder = 'C:\Users\shirawe\Documents\data from mayo';                                                                      % Data folder
+InputName   = 'processed_iq_from_mayo'; 																			 % Movie name
 DataType    = 'mat';   																					 % Type of movie - currently only MAT file is supported
 SaveFolder  = 'Results';
 
@@ -12,7 +12,7 @@ General_Params.MaxNumFrames   = -1;
 % 							  		Physical acquisition parameters 									 %
 % --------------------------------------------------------------------------------------------------------
 Acq_Params.FrameRate  = 10;          																	 % US movie frame-rate [Hz]
-Acq_Params.PixelSizes = 0.15*[1 1]; 																     % US movie pixel size (x, z) [mm]
+Acq_Params.PixelSizes = 0.198*[1 1]; 																     % US movie pixel size (x, z) [mm]
 
 
 % 										  Tracker parameters 										     %
